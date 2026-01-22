@@ -39,7 +39,7 @@ body {
     color: var(--color-text);
     background: linear-gradient(135deg, #FEFBFC 0%, #FDF5F9 100%);
     line-height: 1.6;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@ body {
 /* Newsletter Section */
 .newsletter-section {
     width: 100%;
-    padding: 60px 0;
+    padding: 40px 0;
     background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     position: relative;
     overflow: hidden;
@@ -96,17 +96,17 @@ body {
 
 .newsletter-text h2 {
     font-family: var(--font-heading);
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: var(--color-white);
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     line-height: 1.3;
 }
 
 .newsletter-text p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.9);
-    line-height: 1.6;
+    line-height: 1.5;
     margin-bottom: 0;
 }
 
@@ -122,9 +122,9 @@ body {
 
 .newsletter-form input {
     flex: 1;
-    padding: 16px 24px;
+    padding: 14px 20px;
     font-family: var(--font-body);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: var(--color-text);
     background: var(--color-white);
     border: 2px solid transparent;
@@ -143,12 +143,12 @@ body {
 }
 
 .newsletter-form button {
-    padding: 16px 32px;
+    padding: 14px 28px;
     display: flex;
     align-items: center;
     gap: 8px;
     font-family: var(--font-body);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -186,7 +186,7 @@ body {
 /* Services Section */
 .services-section {
     width: 100%;
-    padding: 45px 0;
+    padding: 35px 0;
     position: relative;
 }
 
@@ -223,7 +223,7 @@ body {
 
 .service-item {
     text-align: center;
-    padding: 25px 15px;
+    padding: 20px 12px;
     background: var(--color-white);
     border-radius: 12px;
     transition: var(--transition);
@@ -255,9 +255,9 @@ body {
 }
 
 .service-icon {
-    width: 70px;
-    height: 70px;
-    margin: 0 auto 15px;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -291,10 +291,10 @@ body {
 
 .service-item h3 {
     font-family: var(--font-body);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: var(--color-text);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
     transition: var(--transition);
@@ -305,10 +305,10 @@ body {
 }
 
 .service-item p {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: var(--color-text-light);
     margin-bottom: 0;
-    line-height: 1.4;
+    line-height: 1.3;
 }
 
 /* Responsive Design */
@@ -320,7 +320,7 @@ body {
     
     body {
         height: auto;
-        min-height: 600px;
+        min-height: 500px;
     }
     
     .newsletter-content {
